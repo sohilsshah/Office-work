@@ -1,0 +1,29 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.common {
+    padding: 120px 0;
+    min-height: 900px;
+    background-color: mediumpurple;
+}
+
+.parallax {
+    overflow: hidden;
+    background-color: silver;
+}
+
+button.scroller-btn-up {
+    position: fixed;
+    left: 0;
+}
+
+button.scroller-btn-down {
+    position: fixed;
+    right: 0;
+}
+
+#truck {
+    position:relative;
+}
