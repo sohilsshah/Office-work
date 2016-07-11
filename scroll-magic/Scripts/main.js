@@ -1,5 +1,17 @@
-﻿$(document).ready(function () {
+﻿
+
+$(document).ready(function () {
+
+    $('body').on({
+        'mousewheel': function (e) {
+            if (e.target.id == 'el') return;
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    });
     
+    //$('body').unbind('mousewheel');
+
     var ele = $('html');
     var scroll = $(window).outerHeight();
 
